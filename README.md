@@ -49,7 +49,7 @@ Click [here](https://drive.google.com/file/d/1kG2kYU_56-0UV2E2I59c1qYphoYRdziK/v
 Please note that the code uses 6/2/2 train/val/test split by default, while our results in the paper are reported with a 8/2 train/test split so if you would like to verify the results please make sure you change the default dataset split. **We also did a 5-fold cross validation for our method and the results are quite stable, as you can see in the rebuttal part of our paper**. 
 
 More codes and information may be updated later.
-
+<!-- 
 ---
 
 Below are some experimental results that may be helpful (BRATS2020).
@@ -83,4 +83,4 @@ Results with 6/2/2 train/val/test split
 | US+SR | 0.8010 | 0.8141 |
 | US+SR+TEL  | 0.8106 | 0.8193 |
 | US+SR+TEL+SSL | 0.8163 | 0.8281 |
-| US+SR+TEL+SSL+SGM | 0.8208 | 0.8329 |
+| US+SR+TEL+SSL+SGM | 0.8208 | 0.8329 | -->
