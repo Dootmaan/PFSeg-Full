@@ -3,13 +3,13 @@ Code for our extended journal paper based on *Patch-Free 3D Medical Image Segmen
 
 ---
 
-This is an extension to the PFSeg(https://github.com/Dootmaan/PFSeg) repo. We investigated the flaws of the original method and proposed three new improvements to solve them. The problems includes:
+This is an extension to the [PFSeg](https://github.com/Dootmaan/PFSeg) repo. We investigated the flaws of the original method and proposed three new improvements to solve them. The problems includes:
 
 - The scale-inconsistency introduced in the concatation between LR main input and HR guidance patch.
 - The limitation of central cropping*
-- The underated effects of TFM
+- The underated potential of TFM
 
-We introduced new multi-scale network structure and designed a clever algorithm for guidance patch searching. TFM has also been used for achieving a better model generalization ability.
+We introduced new multi-scale network structure and designed a clever algorithm for high-speed guidance patch searching. TFM has also been used for achieving a better model generalization ability.
 
 Details will be released upon paper publication.
 
