@@ -36,14 +36,14 @@ Optional libraries (they are only needed when run with the -v flag):
 Firstly, clone our code by running
 
 ```
-    git clone git@github.com:Dootmaan/PFSeg.git
+    git clone git@github.com:Dootmaan/PFSeg-Full.git
 ```
 Normally you only have to specify the path to BRATS2020 dataset to run the code.
 
 For example you can use the following command (of course you need to change directory to ./PFSeg first):
 
 ```
-    CUDA_VISIBLE_DEVICES=0 nohup python3 -u train_PFSeg.py -dataset_path "/home/somebody/BRATS2020/" > train_PFSeg.log 2>&1 &
+    CUDA_VISIBLE_DEVICES=0 nohup python3 -u train_PFSeg-Full.py -dataset_path "/home/somebody/BRATS2020/" > train_PFSeg.log 2>&1 &
 ```
 
 You can also add the -v flag to have verbose output. Our code supports multi-gpu environment and all you have to do is specifying the indices of the available GPUs. Directly running train_PFSeg.py will use all the GPUs on your machine and use the default parameter settings. **The minimun requirements for running our code is a single GPU with 11G video memory.**
